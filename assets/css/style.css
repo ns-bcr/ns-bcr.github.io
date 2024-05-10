@@ -1920,3 +1920,51 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/*
+*SKILLS
+*/  
+.languages,
+.tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajustez la marge selon vos besoins */
+}
+
+.languages div,
+.tools div {
+  text-align: center;
+}
+.languages {
+  margin-bottom: 20px;
+}
+.languages-icon {
+  width: 80px; /* Ajustez la taille des icônes selon vos besoins */
+  height: 80px; /* Ajustez la taille des icônes selon vos besoins */
+  margin: 0 10px; /* Ajustez la marge autour des icônes selon vos besoins */
+}
+.languages-text, .tools-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.seperator {
+  height: 4px;
+  background-color: white;
+  border-radius: 100px;
+}
+.tools-icon {
+  margin-bottom: 20px
+}
+.most-used-languages{
+  text-align: center;
+  margin-top: 40px
+} 
+.most-used {
+  text-align: center;
+  align-content: center;
+}
+.most-used-div {
+  display: flex;
+  justify-content: center;
+}
